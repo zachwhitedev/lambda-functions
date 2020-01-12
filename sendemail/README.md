@@ -5,7 +5,7 @@ Once your function is created, make sure you have cd'd into the function folder 
 
 3. Next, go online to your AWS console, and create an empty Lambda function (in the correction region- for me it's us-west-1 right now) and give it a specific, unique name (for example, the name for this function as a Lambda function is _sendemailtest1_).
 
-4. Then, run the below command, replacing _mycoolfunction_ with the name you came up with in the previous step:
+4. Then, go back to your terminal and run the following command, replacing _mycoolfunction_ with the name you came up with in the previous step:
 
 5. **aws lambda update-function-code --function-name mycoolfunction --zip-file fileb://function.zip**
 
