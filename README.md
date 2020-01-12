@@ -1,1 +1,1 @@
-My Node.js Lambda functions. You can find personal guides for each one in the folder's README.
+My Node.js Lambda functions. You can find personal guides in each folder's README.
