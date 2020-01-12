@@ -1,4 +1,4 @@
-*The following guide assumes that you have created an account with AWS and have installed the AWS cli on your computer and logged into it.*
+*The following guide assumes that you have created an account with AWS and also installed the AWS CLI on your computer and logged into it.*
 
 Once your function is created, make sure you have cd'd into the function folder (in this case, **sendemail**/) and then run these commands:
 
