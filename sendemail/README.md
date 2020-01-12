@@ -11,7 +11,7 @@ Once your function is created, make sure you have cd'd into the function folder 
 
 The above function is what actually loads the function into your AWS console as a Lambda function.
 
-Now, if you want to schedule it, you just need to go to **CloudWatch** -> **Rules** -> **Create rule** -> select **'Schedule'** -> choose **'Fixed rate of'** or input a **Cron expression**, then **Add Target** -> select your Lambda function -> now click **Configure Details**, and give your rule a name, then click **Create rule**.
+Now, if you want to schedule it, you just need to go to **CloudWatch** -> **Rules** -> **Create rule** -> select **'Schedule'** -> choose **'Fixed rate of'** (or input a **Cron expression**), then **Add Target** -> select your Lambda function -> now click **Configure Details**, and give your rule a name, then click **Create rule**.
 
 Note that **you can create multiple targets for one rule** if you think it'll make your life easier, i.e., you can have one rule that fires off multiple Lambda functions instead of creating dozens of redundant CloudWatch rules.
 
