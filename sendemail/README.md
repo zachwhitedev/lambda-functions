@@ -9,7 +9,7 @@ Once your function is created, make sure you have cd'd into the function folder 
 
 4. Then, go back to your terminal and run the following command, replacing _mycoolfunction_ with the name you came up with in the previous step: **aws lambda update-function-code --function-name mycoolfunction --zip-file fileb://function.zip**
 
-The above function is what actually loads the function into your AWS console as a Lambda function.
+The above command is what actually loads the function into your AWS console as a Lambda function.
 
 Now, if you want to schedule it, you just need to go to **CloudWatch** -> **Rules** -> **Create rule** -> select **'Schedule'** -> choose **'Fixed rate of'** (or input a **Cron expression**), then **Add Target** -> select your Lambda function -> now click **Configure Details**, and give your rule a name, then click **Create rule**.
 
